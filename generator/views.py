@@ -7,8 +7,10 @@ import random
 def home(request):
     return render(request, 'generator/home.html', {'password': 'garbage'})
 
+
 def about(request):
     return render(request, 'generator/about.html')
+
 
 def password(request):
 
@@ -25,4 +27,4 @@ def password(request):
     for x in range(length):
         thepassword += random.choice(characters)
 
-    return render(request, 'generator/password.html', {'password': thepassword})
+    return render(request, 'generator/password.html', {'password': thepassword, 'length': length})

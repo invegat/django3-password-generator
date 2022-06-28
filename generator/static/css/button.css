@@ -1,0 +1,9 @@
+#copytext {
+    background-color: green;
+}
+#copytext:hover {
+    color: white;
+}
+#copytext:active {
+    background-color: blue;
+}
