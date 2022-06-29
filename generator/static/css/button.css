@@ -7,3 +7,6 @@
 #copytext:active {
     background-color: blue;
 }
+.alert {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
